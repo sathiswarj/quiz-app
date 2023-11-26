@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Outfit:wght@300&family=Poppins:wght@500&display=swap');
+
+
+body {
+    background-color: blue;
+}
+
+.quiz-question,
+.buttons {
+    margin-left: 15px;
+}
+
+.container {
+    background-color: white;
+    margin: 100px auto 0;
+    width: 70%;
+    max-width: 600px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+     padding: 32px 28px 82px 33px;
+}
+
+
+
+.btn {
+    padding: 10px;
+    width: 95%;
+    margin-top: 14px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+hr {
+    color: black;
+    margin-right: 14px;
+}
+
+
+.btn:hover.not([disabled]) {
+    background-color: black;
+    color: white;
+}
+
+.next-btn {
+    padding: 10px;
+    width: 20%;
+    margin-top: 24px;
+    border-radius: 7px;
+    margin-left: 40%;
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+    color: white;
+    display: none;
+}
+
+.next-btn:hover {
+    background-color: darkblue;
+}
+
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        background-color: white;
+        margin: 52px auto 0;
+        width: 70%;
+        max-width: 600px;
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        padding: 32px 28px 82px 33px;
+    }
+    .next-btn {
+        padding: 10px;
+        width: 51%;
+        margin-top: 23px;
+        border-radius: 7px;
+        margin-left: 26%;
+        font-family: 'Poppins', sans-serif;
+        background-color: blue;
+        color: white;
+        display: none;
+    }
+    .quiz-question, .buttons {
+     margin-left: 0px;
+    }
+    
+}
+
